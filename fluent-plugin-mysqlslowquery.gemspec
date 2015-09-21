@@ -7,6 +7,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Fluent input plugin for MySQL slow query log file.}
   gem.summary       = %q{Fluent input plugin for MySQL slow query log file.}
   gem.homepage      = "https://github.com/taka84u9/fluent-plugin-mysqlslowquery"
+  gem.license       = "Apache-2.0"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
